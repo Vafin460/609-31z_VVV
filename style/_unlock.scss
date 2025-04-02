@@ -1,0 +1,50 @@
+.unlock {
+    padding: 50px 0;
+
+    @media (max-width: $breakpoint-md) {
+        padding: 40px 0;
+    }
+}
+
+.unlock__content {
+    display: flex;
+    align-items: center;
+    gap: 37px;
+
+
+    img {
+        @media (max-width: $breakpoint-lg) {
+            width: 240px;
+        }
+        
+        @media (max-width: $breakpoint-sm) {
+            width: 100%;
+        }
+    }
+
+    @media (max-width: $breakpoint-md) {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+}
+
+.unlock__group {
+    max-width: 607px;
+
+    p {
+        margin-bottom: 16px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    h2 {
+        margin-bottom: 32px;
+    }
+
+    button {
+        @media (max-width: $breakpoint-md) {
+            width: 100%;
+        }
+    }
+}

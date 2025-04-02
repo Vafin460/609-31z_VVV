@@ -1,0 +1,44 @@
+.promo {
+    background: $light;
+    padding: 180px 0 96px;
+
+    @media (max-width: $breakpoint-md) {
+        padding: 121px 0 60px;
+    }
+}
+
+.promo__content {
+    display: flex;
+    align-items: center;
+    gap: 111px;
+
+    img {
+        @media (max-width: $breakpoint-lg) {
+            width: 240px;
+        }
+
+        @media (max-width: $breakpoint-sm) {
+            width: 100%;
+        }
+    }
+
+
+
+    @media (max-width: $breakpoint-md) {
+        flex-direction: column-reverse;
+    }
+
+
+}
+
+.promo__group {
+    p {
+        margin-bottom: 16px;
+    }
+
+    button {
+        @media (max-width: $breakpoint-md) {
+            width: 100%;
+        }
+    }
+}
